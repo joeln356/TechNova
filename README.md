@@ -5,11 +5,11 @@
 <h1 align="center">TechNova</h1>
 
 <p align="center">
-  <strong>Landing page moderna</strong> • Design futurista • HTML + CSS + JavaScript puro
+  <strong>Modern landing page</strong> • Futuristic design • Pure HTML + CSS + JavaScript
 </p>
 
 <p align="center">
-  <a href="https://joeln356.github.io/TechNova/"><strong>Ver demonstração ao vivo →</strong></a>
+  <a href="https://joeln356.github.io/TechNova/"><strong>View live demo →</strong></a>
   <br><br>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
@@ -19,35 +19,36 @@
 
 ---
 
-### ✨ Sobre o TechNova
+### ✨ About TechNova
 
-**TechNova** é uma landing page clean e moderna criada para apresentar **ideias inovadoras**, startups de tecnologia, portfólios pessoais ou produtos digitais com visual futurista/neon.
+**TechNova** is a clean and modern landing page designed to showcase **innovative ideas**, tech startups, personal portfolios, or digital products with a futuristic/neon aesthetic.
 
-Características principais:
-- Design responsivo (mobile-first)
-- Animações suaves com CSS puro
-- Efeitos de hover e scroll modernos
-- Carregamento rápido (sem frameworks pesados)
-
----
-
-### 🌐 Demonstração
-
-**[Acesse o site ao vivo aqui](https://joeln356.github.io/TechNova/)**
+Main features:
+- Responsive design (mobile-first)
+- Smooth animations using pure CSS
+- Modern hover and scroll effects
+- Fast loading (no heavy frameworks)
 
 ---
 
-### 🛠️ Tecnologias utilizadas
+### 🌐 Demo
+
+**[Access the live website here](https://joeln356.github.io/TechNova/)**
+
+---
+
+### 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- Hospedagem: **GitHub Pages**
+- Hosting: **GitHub Pages**
 
 ---
 
-### 🚀 Como rodar localmente
+### 🚀 How to Run Locally
 
-1. Clone o repositório
-   ```bash
-   git clone https://github.com/joeln356/TechNova.git
+1. Clone the repository
+
+```bash
+git clone https://github.com/joeln356/TechNova.git
