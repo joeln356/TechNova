@@ -1,0 +1,214 @@
+#hero{
+    height: 100svh;
+    background-image: url(../assets/img/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-tag{
+    color: var(--destaque);
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: #017d8638;
+    border: 1px solid #00d9e873;
+    margin-bottom: 30px;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 2px 15px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.hero-tag > span{
+    display: inline-block;
+    background-color: var(--destaque);
+    height: 7px;
+    width: 7px;
+    border: 1px solid ;
+    border-radius: 100%;
+}
+#hero-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, #03070f 25%,#03070ff3 35%, #03070f6b);
+    padding: 0px 15px;
+    height: 100%;
+    width: 100%;
+}
+.hero-title{
+    color: #fff;
+    font-weight: 900;
+    font-size: 2.9rem;
+}
+.title-power{
+    background-image: linear-gradient(to right, #fff, #f0efef, #d8d4d4);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.title-your{
+    background-image: linear-gradient(45deg, #00eeff, #02aab6, #056e75 60%,#04464b, #2986FF);
+    -webkit-background-clip: text;
+    background-size: 400%;
+    color: transparent;
+    text-shadow:0px 0px 30px #00D8E8;
+}
+
+.hero-p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: var(--paragrafo);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.hero-button{
+    display: flex;
+    flex-direction: column;
+    word-spacing: 2px;
+}
+.btn-buy{
+    margin-bottom: 15px;
+    background-color: var(--destaque);
+    border: none;
+    height: 50px;
+    
+}
+.btn-buy:active{
+    box-shadow: 0px 0px 25px var(--destaque);
+}
+.fa-arrow-right{
+    
+    transition: all 0.2s;
+}
+.btn-buy:active .fa-arrow-right{
+    transform: translateX(5px);
+}
+
+.repair-btn{
+    background-color: transparent;
+    color: var(--destaque-branco);
+    border: 0.5px solid var(--paragrafo);
+    height: 50px;
+    
+}
+.repair-btn:active{
+    border-color: var(--destaque);
+    background-color: #00d9e850;
+}
+@media screen and (min-width: 500px) and (max-width:800px) {
+    #hero{
+        height: 80svh;
+        background-image: url(../assets/img/hero.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #hero-text{
+        padding: 0px 90px;
+    }
+    .hero-title{
+        font-size: 5.5rem;
+    }
+    .hero-tag{
+        font-size: 1rem;
+    }
+    .hero-p{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 1.5rem;
+        width: 500px;
+    }
+    .hero-button{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        word-spacing: 2px;
+    }
+    .btn-buy{
+        margin-bottom: 15px;
+        background-color: var(--destaque);
+        border: none;
+        height: 50px;
+        width: 250px;
+        font-size: 14.7px;
+        
+    }
+    .repair-btn{
+        background-color: transparent;
+        color: var(--destaque-branco);
+        border: 0.5px solid var(--paragrafo);
+        height: 40px;
+        width: 200px;
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    #hero-text{
+        background-image: linear-gradient(15deg, #03070f 35%,#03070ff3 45%, #03070fa1,#03070f96);
+        padding: 0px 90px;
+    }
+    .hero-tag{
+        margin-top: 40px;
+        font-size: 0.75rem;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .hero-title{
+        font-size: 5.5rem;
+    }
+    .hero-p{
+        margin-top: 15px;
+        margin-bottom: 30px;
+        font-size: 1.3rem;
+        width: 450px;
+    }
+    .hero-button{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        word-spacing: 2px;
+    }
+    .btn-buy{
+        margin-bottom: 15px;
+        background-color: var(--destaque);
+        border: none;
+        height: 40px;
+        width: 200px;
+    }
+    .repair-btn{
+        background-color: transparent;
+        color: var(--destaque-branco);
+        border: 0.5px solid var(--paragrafo);
+        height: 40px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    #hero-text{
+        padding: 0px 130px;
+    }
+    .hero-title{
+        font-size: 5.5rem;
+    }
+    .hero-tag{
+        font-size: 0.85rem;
+    }
+    .hero-p{
+        font-size: 1.4rem;
+        width: 530px;
+    }
+    .btn-buy{
+        transition: all 0.5s;
+    }
+    .btn-buy:hover{
+        box-shadow: 0px 0px 25px var(--destaque);
+    }
+    .repair-btn{
+        transition: all 0.5s;
+    }
+    .repair-btn:hover{
+        border-color: var(--destaque);
+        background-color: #00d9e850;
+    }
+}
