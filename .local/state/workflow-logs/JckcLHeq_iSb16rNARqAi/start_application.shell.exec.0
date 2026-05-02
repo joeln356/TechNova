@@ -1,0 +1,23 @@
+  🔍 Resolving [1/1] [23D[0K  🔍 concat-map [155/154] [28D[0K  📦 Installing [30/85] [26D[0K  📦 Installing [55/85] [26D[0K  📦 Installing [58/85] [26D[0K  📦 Installing [59/85] [26D[0K  🔒 Saving lockfile... [26D[0K[41m[1m ERROR [22m[49m Cannot copy server address to clipboard: Couldn't find the `xsel` binary and fallback didn't work. On Debian/Ubuntu you can install xsel with: sudo apt install xsel.
+[32m[39m
+[32m   ┌──────────────────────────────────────────┐[39m
+   [32m│[39m                                          [32m│[39m
+   [32m│[39m   [32mServing![39m                               [32m│[39m
+   [32m│[39m                                          [32m│[39m
+   [32m│[39m   [1m- Local:[22m    http://localhost:5000      [32m│[39m
+   [32m│[39m   [1m- Network:[22m  http://172.31.68.98:5000   [32m│[39m
+   [32m│[39m                                          [32m│[39m
+[32m   └──────────────────────────────────────────┘[39m
+[32m[39m
+[44m[1m HTTP [22m[49m [2m5/2/2026 10:29:48 PM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m5/2/2026 10:29:48 PM[22m [33m127.0.0.1[39m [32mReturned 200 in 18 ms[39m
+[44m[1m HTTP [22m[49m [2m5/2/2026 10:29:49 PM[22m [33m127.0.0.1[39m [36mGET /images/hero.png[39m
+[44m[1m HTTP [22m[49m [2m5/2/2026 10:29:49 PM[22m [33m127.0.0.1[39m [36mGET /images/product-pc.png[39m
+[44m[1m HTTP [22m[49m [2m5/2/2026 10:29:49 PM[22m [33m127.0.0.1[39m [32mReturned 200 in 12 ms[39m
+[44m[1m HTTP [22m[49m [2m5/2/2026 10:29:49 PM[22m [33m127.0.0.1[39m [36mGET /images/product-gpu.png[39m
+[44m[1m HTTP [22m[49m [2m5/2/2026 10:29:49 PM[22m [33m127.0.0.1[39m [32mReturned 200 in 208 ms[39m
+[44m[1m HTTP [22m[49m [2m5/2/2026 10:29:49 PM[22m [33m127.0.0.1[39m [32mReturned 200 in 224 ms[39m
+[44m[1m HTTP [22m[49m [2m5/2/2026 10:29:49 PM[22m [33m127.0.0.1[39m [36mGET /images/product-laptop.png[39m
+[44m[1m HTTP [22m[49m [2m5/2/2026 10:29:49 PM[22m [33m127.0.0.1[39m [32mReturned 200 in 10 ms[39m
+
+[45m[1m INFO [22m[49m Gracefully shutting down. Please wait...

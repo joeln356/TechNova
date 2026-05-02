@@ -1,0 +1,115 @@
+/* style.css - TechNova Custom Styles */
+
+body {
+  background-color: hsl(220, 60%, 5%);
+  color: hsl(210, 40%, 98%);
+  /* Efeito tech sutil no fundo usando radial gradients */
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(0, 240, 255, 0.05), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(0, 80, 255, 0.05), transparent 25%);
+  background-attachment: fixed;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* Glassmorphism Panel */
+.glass-panel {
+  background-color: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.3);
+}
+
+/* Neon Text Gradient & Glow */
+.neon-text {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, hsl(184, 100%, 50%), #3b82f6);
+  filter: drop-shadow(0 0 8px rgba(0,240,255,0.5));
+}
+
+/* Neon Box Shadow Hover */
+.neon-glow:hover {
+  box-shadow: 0 0 20px rgba(0,240,255,0.4);
+  transition: all 0.3s ease;
+}
+
+/* Navbar Logo Hover effect */
+.group:hover .logo-icon {
+  box-shadow: 0 0 20px rgba(0,240,255,0.4);
+}
+
+/* Small Neon Badge Glow */
+.shadow-glow {
+  box-shadow: 0 0 10px rgba(0,240,255,0.5);
+}
+.shadow-glow-hover:hover {
+  box-shadow: 0 0 20px rgba(0,240,255,0.3);
+}
+
+/* Mobile Menu Transitions */
+#mobile-menu {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+}
+
+#mobile-menu.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* Product Card Image Zoom */
+.product-card:hover .product-img {
+  transform: scale(1.05);
+}
+
+/* Cart Button Hover */
+.btn-cart:hover {
+  box-shadow: 0 0 15px rgba(0,240,255,0.4);
+}
+
+/* Custom Scrollbar for better integration with dark theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(220, 60%, 5%); 
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(215, 32%, 17%); 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(184, 100%, 50%); 
+}
+
+/* 
+  Animations for Intersection Observer (Scroll Reveal)
+*/
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.scale-up {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Helper classes for staggered animations */
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }

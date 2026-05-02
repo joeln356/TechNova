@@ -33,13 +33,13 @@ args = "Start application"
 name = "Start application"
 author = "agent"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "bunx serve client/public -p 5000"
-waitForPort = 5000
-
 [workflows.workflow.metadata]
 outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "bunx serve . -p 5000"
+waitForPort = 5000
 
 [agent]
 stack = "MOCKUP_JS"
