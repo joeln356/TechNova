@@ -1,9 +1,6 @@
-/* style.css - TechNova Custom Styles */
-
 body {
   background-color: hsl(220, 60%, 5%);
   color: hsl(210, 40%, 98%);
-  /* Efeito tech sutil no fundo usando radial gradients */
   background-image: 
     radial-gradient(circle at 15% 50%, rgba(0, 240, 255, 0.05), transparent 25%),
     radial-gradient(circle at 85% 30%, rgba(0, 80, 255, 0.05), transparent 25%);
@@ -12,8 +9,6 @@ body {
 html{
   scroll-behavior: smooth;
 }
-
-/* Glassmorphism Panel */
 .glass-panel {
   background-color: rgba(15, 23, 42, 0.6);
   backdrop-filter: blur(24px);
@@ -22,7 +17,7 @@ html{
   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.3);
 }
 
-/* Neon Text Gradient & Glow */
+
 .neon-text {
   color: transparent;
   background-clip: text;
@@ -64,17 +59,14 @@ html{
   transform: translateY(0);
 }
 
-/* Product Card Image Zoom */
 .product-card:hover .product-img {
   transform: scale(1.05);
 }
 
-/* Cart Button Hover */
 .btn-cart:hover {
   box-shadow: 0 0 15px rgba(0,240,255,0.4);
 }
 
-/* Custom Scrollbar for better integration with dark theme */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -89,9 +81,7 @@ html{
   background: hsl(184, 100%, 50%); 
 }
 
-/* 
-  Animations for Intersection Observer (Scroll Reveal)
-*/
+
 .fade-in-up {
   opacity: 0;
   transform: translateY(30px);
